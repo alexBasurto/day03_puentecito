@@ -3,6 +3,22 @@
     background-color: blanchedalmond;
 }
 
+body {
+    margin: 8px 100px;
+}
+
+section#rotulo {
+    height: 100px;
+}
+
+img#snape {
+    height: 130px;
+    position: absolute;
+    top: 15px;
+    right: 100px;
+
+}
+
 h1 {
     font-size: 100px;
     font-weight: 900;
@@ -42,6 +58,7 @@ h3, h4 {
 
 img {
     margin: 15px;
+    
 }
 
 img#imgLeft {
@@ -52,7 +69,14 @@ img#imgRight {
     float: right;
 }
 
-section#textoNoticia {
+p#textoNoticia {
     margin-left: 15px;
+    text-align: justify;
+    columns: 3;
+    line-height: 1.5em;
+}
+
+article {
+    overflow: hidden;
 }
 
