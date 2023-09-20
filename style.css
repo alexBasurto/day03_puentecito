@@ -1,0 +1,58 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    text-shadow: 8px 8px lightgray;
+    margin: 0px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+nav > ul > li {
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    display: inline;
+    color: darkblue;
+    font-size: 18px;
+    padding: 0px 25px;
+}
+
+h3 {
+    font-size: 55px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h3, h4 {
+    margin: 0px 15px;
+}
+
+img {
+    margin: 15px;
+}
+
+img#imgLeft {
+    float: left;
+}
+
+img#imgRight {
+    float: right;
+}
+
+section#textoNoticia {
+    margin-left: 15px;
+}
+
